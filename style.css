@@ -1,0 +1,15 @@
+header {
+  text-align: center;
+  fonts: "Lucida Console", "Courier New", monospace;
+  font-style: italic;
+  font-size: 20px;
+}
+#survey-form {
+  background-color: lightpink;
+  color: black;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 16px;
+  padding: 20px 0 20px 50px;
+}
