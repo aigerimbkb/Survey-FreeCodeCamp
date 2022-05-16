@@ -1,0 +1,46 @@
+<header>
+<h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+</header>  
+<form id="survey-form">
+  
+  <label for="name" id="name-label">Name</label><br>
+  <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+  
+  <label for="email" id="email-label">Email</label><br>
+  <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+  
+  <label for="number" id="number-label">Age</label><br>
+  <input type="number" id="number" placeholder="Age" max="100" min="0"><br>
+  
+  <p>Which option best describes your current role?</p>
+  <select id="dropdown">
+    <option value="student">Student</option>
+    <option value="full-time-job">Full Time Job</option>
+    <option value="other">Other</option>
+  </select><br>
+  
+  <p>Would you recommend freeCodeCamp to a friend?</p>
+  <input type="radio" id="rb1" name="recommend" value="definitely">
+  <label for="rb1">Definitely</label><br>
+  <input type="radio" id="rb2" name="recommend" value="maybe">
+  <label for="rb2">Maybe</label><br>
+  <input type="radio" id="rb3" name="recommend" value="not-sure">
+  <label for="rb3">Not sure</label><br>
+
+  <p>What would you like to see improved? </p>
+  <input type="checkbox" id="cb1" name="cb1" value="front-end">
+  <label for="cb1">Front-end Projects</label><br>
+  
+  <input type="checkbox" id="cb2" name="cb2" value="back-end">
+  <label for="cb2">Back-end Projects</label><br>
+  
+  <input type="checkbox" id="cb3" name="cb3" value="Challenges">
+  <label for="cb3">Challenges</label><br>
+  
+  <p>Any comments or suggestions?</p>
+  <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Enter your comment here..."></textarea>
+  <br><br>
+  
+  <input type="submit" id="submit" value="Submit">
+</form>
